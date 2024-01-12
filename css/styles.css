@@ -16,7 +16,7 @@ body{
 body.dark{
     --text-color: hsl(0, 0%, 83%);
     --bg-color: hsl(0, 0%, 15%);
-    --bg-card-color: hsl(0, 0%, 98%);
+    --bg-card-color: hsl(0, 0%, 20%);
 }
 
 .header{
