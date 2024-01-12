@@ -77,3 +77,8 @@ body.dark{
 .colors__item--orange {
     --primary-color: hsl(46, 84%, 56%);
 }
+
+.title{
+    text-align: center;
+    color: var(--primary-color);
+}
