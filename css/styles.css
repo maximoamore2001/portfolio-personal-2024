@@ -3,6 +3,7 @@
     --text-color: hsl(0, 0%, 31%);
     --bg-color: hsl(0, 0%, 90%);
     --bg-card-color: hsl(0, 0%, 98%);
+    --trasition: color 0.1s, background-color 0.2s ease-in-out;
 }
 
 *{
@@ -12,6 +13,7 @@ body{
     margin: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
+    transition: var(--trasition);
 }
 body.dark{
     --text-color: hsl(0, 0%, 83%);
@@ -26,6 +28,7 @@ body.dark{
     height: 75px;
     padding: 0 1.5em;
     background-color: var(--bg-card-color);
+    transition: var(--trasition);
 }
 
 .switches{
@@ -81,4 +84,5 @@ body.dark{
 .title{
     text-align: center;
     color: var(--primary-color);
+    transition: var(--trasition);
 }
