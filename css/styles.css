@@ -1,5 +1,5 @@
 :root{
-    --primary-color: hsl(214, 84%, 56%);
+    --primary-color: hsl(46, 84%, 56%);
     --text-color: hsl(0, 0%, 31%);
     --bg-color: hsl(0, 0%, 90%);
     --bg-card-color: hsl(0, 0%, 98%);
@@ -26,7 +26,7 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: var(--trasition);
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Kanit', sans-serif;
 }
 body.dark{
     --text-color: hsl(0, 0%, 83%);
@@ -157,9 +157,22 @@ color: var(--primary-color);
     margin-bottom: .7em;
 }
 
+.card__link:hover{
+    margin-bottom: .7em;
+    text-decoration: underline;
+}
+
 .card__text{
     font-size: 1rem;
     line-height: 1.6;
+    margin: 0;
+}
+
+.card__h3{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-decoration: underline;
 }
 
 .skills{
@@ -176,7 +189,7 @@ color: var(--primary-color);
 .skills__tech{
     margin: 0;
     font-size: 1rem;
-
+    font-weight: 600;
 }
 
 .skills__item{
@@ -237,7 +250,7 @@ color: var(--primary-color);
     display: flex;
     align-items: start;
    margin-top: 2em;
-    padding: 1em;
+    padding: 0.6em;
     border: 2px solid var(--primary-color);
     border-radius: var(--border-radius);
     transition: var(--trasition);
