@@ -231,6 +231,19 @@ body.dark{
     --skills-bar-length: 90%;
 }
 
+.experience{
+    display: flex;
+    align-items: start;
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    transition: var(--trasition);
+}
+
+.experience__image{
+    max-width: 15%;
+}
 
 .icon{
     margin-right: 1em;
