@@ -102,7 +102,7 @@ body.dark{
 
 .main{
     display: grid;
-    padding: 2em;
+    padding: 1em;
     gap: 0.5em;
 }
 
