@@ -274,6 +274,11 @@ color: var(--primary-color);
     margin: 0;
 }
 
+.experience__project{
+    border-radius: var(--border-radius);
+    margin-top: 0.5em;
+}
+
 .icon{
     margin-right: 1em;
 }
