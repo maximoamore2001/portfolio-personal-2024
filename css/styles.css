@@ -57,12 +57,14 @@ body.dark{
     cursor: pointer;
 }
 
+
 .toggle-theme__icon{
     margin-right: 0.5em;
     width: 20px;
 }
 .toggle-theme__text{
-    font-size: 1em;
+    font-size: 1.0em;
+    font-weight: 800;
 }
 
 .colors{
