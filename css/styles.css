@@ -121,7 +121,6 @@ body.dark{
     .column{
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3, min-content);
-    align-items: start;
     }
 }
 
@@ -234,15 +233,16 @@ body.dark{
 .experience{
     display: flex;
     align-items: start;
-    margin-bottom: 1em;
+   margin-top: 2em;
     padding: 1em;
     border: 2px solid var(--primary-color);
     border-radius: var(--border-radius);
     transition: var(--trasition);
 }
 
-.experience__image{
+.experience__image {
     max-width: 15%;
+    padding-right: 5px;
 }
 
 .icon{
