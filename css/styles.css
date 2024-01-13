@@ -103,6 +103,7 @@ body.dark{
 .main{
     display: grid;
     padding: 2em;
+    gap: 0.5em;
 }
 
 @media screen and (min-width: 720px){
@@ -120,6 +121,7 @@ body.dark{
     .column{
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3, min-content);
+    align-items: start;
     }
 }
 
@@ -161,7 +163,22 @@ body.dark{
 .skills{
     padding: 1em 0;
 }
+
+.skills__header{
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    margin-left: auto;
+}
+
+.skills__tech{
+    margin: 0;
+    font-size: .9rem;
+
+}
+
 .skills__item{
+    margin-bottom: 0.5em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -174,6 +191,7 @@ body.dark{
     height: 8px;
     background-color: #888;
     border-radius: var(--border-radius);
+    overflow: hidden;
 }
 
 .skills__bar::after{
@@ -182,6 +200,7 @@ body.dark{
     background-color: var(--primary-color);
     transition: var(--trasition);
     left: -175px;
+    animation: skills__bar-fill 2s ease-in-out forwards;
 }
 
 .skills__bar--10::after{
