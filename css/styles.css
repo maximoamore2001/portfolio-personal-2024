@@ -1,5 +1,5 @@
 :root {
-    --primary-color: hsl(66, 100%, 78%);
+    --primary-color: hsl(65, 100%, 54%);
     --text-color: hsl(0, 0%, 17%);
     --bg-color: hsl(0, 0%, 98%);
     --bg-card-color: hsl(0, 0%, 80%);
@@ -87,19 +87,19 @@ body.dark {
 }
 
 .colors__item--blue {
-    --primary-color: hsl(240, 100%, 62%);
+    --primary-color: hsl(181, 100%, 54%) ;
 }
 
 .colors__item--green {
-    --primary-color: hsl(150, 84%, 56%);
+    --primary-color: hsl(111, 100%, 54%) ;
 }
 
 .colors__item--purple {
-    --primary-color: hsl(0, 100%, 50%);
+    --primary-color: hsl(300, 100%, 50%);
 }
 
 .colors__item--orange {
-    --primary-color: hsl(66, 100%, 78%);
+    --primary-color: hsl(65, 100%, 54%);
 }
 
 .title {
@@ -161,6 +161,10 @@ body.dark {
     margin: 0;
     font-size: 1.5rem;
     text-decoration: underline var(--primary-color);
+}
+
+.card__title--contacto{
+    margin-bottom: .5em;
 }
 
 .card__subtitle {
