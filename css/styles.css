@@ -1,8 +1,8 @@
 :root{
     --primary-color: hsl(66, 100%, 78%);
-    --text-color: hsl(0, 0%, 31%);
-    --bg-color: hsl(0, 0%, 90%);
-    --bg-card-color: hsl(0, 0%, 98%);
+    --text-color: hsl(0, 0%, 20%);
+    --bg-color: hsl(0, 0%, 98%);
+    --bg-card-color: hsl(0, 0%, 70%);
     --trasition: color 0.1s, background-color 0.2s ease-in-out;
     --border-radius: 0.4em ;
     --skills-bar-length: 0%;
@@ -147,9 +147,7 @@ body.dark{
     margin: 0;
     font-size: 1.5rem;
 }
-.card__title--name{
-color: var(--primary-color);
-}
+
 
 .card__subtitle{
     font-size: 1rem;
@@ -262,7 +260,7 @@ color: var(--primary-color);
 
 .experience__image {
     margin-right: 1em;
-    max-width: 8%;
+    max-width: 10%;
     text-align: center;
 }
 
@@ -276,22 +274,23 @@ color: var(--primary-color);
     margin: 0;
 }
 .card--experience{
-    max-height: 470px;
 }
 .experience__time{
     margin: 0;
 }
-
 
 .experience__job{
     margin: 0;
 }
 
 .experience__project{
+    width: 100%;
     border-radius: var(--border-radius);
-    margin-top: 1.5em;
-    padding-right: 30px;
+    overflow: hidden;
+    margin: 10px 0 0;
 }
+
+
 
 .experience__link{
     margin: 0;
@@ -306,3 +305,4 @@ color: var(--primary-color);
         transform: translateX(var(--skills-bar-length));
     }
 }
+
