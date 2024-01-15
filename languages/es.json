@@ -1,8 +1,8 @@
 {
     "profile" : {
         "rol": "Desarrollador Full-stack",
-        "description": "Hola, mi nombre es Máximo y soy desarrollador web. <br>
-        Tengo 22 años y resido en la ciudad de Rosario, Argentina. <br>
+        "description": "Hola, mi nombre es Máximo y soy desarrollador web.
+        Tengo 22 años y resido en la ciudad de Rosario, Argentina.
         A mis 19 años me recibí como técnico maestro mayor de obras, 
         pero siempre fui un apasionado de todo lo relacionado con la tecnología, lo que hizo que descubriera el mundo de la programación."
     },
@@ -10,6 +10,6 @@
         "first-job-title": "Full-stack developer",
         "first-job-dates": "2022 - Ahora",
         "first-job-experience": " Mi experiencia de trabajo se destaca en mis projects como desarrollador, donde empleo todos mis conocimientos aprendidos.
-        <br> Realizando un sistema de ventas y una tienda online completamente hecha por mí. <br> Actualmente no cuento con experiencia en una empresa." 
+         Realizando un sistema de ventas y una tienda online completamente hecha por mí.  Actualmente no cuento con experiencia en una empresa." 
     }
 }

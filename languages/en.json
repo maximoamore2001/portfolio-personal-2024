@@ -1,8 +1,8 @@
 {
     "profile" : {
         "rol": "Full-stack developer",
-        "description": "Hello, my name is Máximo and I am a web developer. <br>
-        I am 22 years old and I live in the city of Rosario, Argentina. <br>
+        "description": "Hello, my name is Máximo and I am a web developer. 
+        I am 22 years old and I live in the city of Rosario, Argentina. 
         At the age of 19 I received my degree as a senior master construction technician,
         but I was always passionate about everything related to technology, which made me discover the world of programming."
     },
@@ -10,6 +10,6 @@
         "first-job-title": "Full-stack developer",
         "first-job-dates": "2022 - Now",
         "first-job-experience": "My work experience stands out in my projects as a developer, where I use all my learned knowledge.
-        <br> Creating a sales system and an online store completely made by me. <br> I currently do not have experience in a company." 
+         Creating a sales system and an online store completely made by me.  I currently do not have experience in a company." 
     }
 }
