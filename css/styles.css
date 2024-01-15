@@ -1,8 +1,8 @@
 :root {
     --primary-color: hsl(66, 100%, 78%);
-    --text-color: hsl(0, 0%, 20%);
+    --text-color: hsl(0, 0%, 17%);
     --bg-color: hsl(0, 0%, 98%);
-    --bg-card-color: hsl(0, 0%, 70%);
+    --bg-card-color: hsl(0, 0%, 80%);
     --trasition: color 0.1s, background-color 0.2s ease-in-out;
     --border-radius: 0.4em;
     --skills-bar-length: 0%;
@@ -136,6 +136,10 @@ body.dark {
     padding: 1em;
     background-color: var(--bg-card-color);
     border-radius: var(--border-radius);
+}
+
+.card--profile{
+    height: 1289px;
 }
 
 .card__image-container {
@@ -327,7 +331,7 @@ body.dark {
 
 .form-container {
     width: 100%;
-    background: linear-gradient(#212121, #212121) padding-box,
+    background: linear-gradient(var(--bg-color), var(--bg-color)) padding-box,
     linear-gradient(145deg, transparent 35%, var(--primary-color), var(--primary-color)) border-box;
     border: 2px solid transparent;
     padding: 32px 24px;
@@ -410,8 +414,8 @@ body.dark {
     color: #717171;
     font-weight: 600;
     width: 40%;
-    background: #313131;
-    border: 1px solid #414141;
+    background: var(--bg-card-color);
+    border: 2px solid #414141;
     padding: 12px 16px;
     font-size: inherit;
     gap: 8px;
@@ -421,8 +425,9 @@ body.dark {
 }
 
 .form-container .form-submit-btn:hover {
-    background-color: #fff;
-    border-color: #fff;
+    background-color: var(--bg-card-color);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 
