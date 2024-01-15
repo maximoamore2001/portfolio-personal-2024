@@ -306,6 +306,7 @@ body.dark {
 
 .second__time {
     margin: 0;
+    opacity: .8;
 }
 
 .second__job {
