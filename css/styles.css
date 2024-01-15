@@ -59,6 +59,20 @@ body.dark {
     cursor: pointer;
 }
 
+.flags{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flags__item{
+    width: 30px;
+}
+
+.flags__img{
+    cursor: pointer;
+    display: block;
+}
 
 .toggle-theme__icon {
     margin-right: 0.5em;
