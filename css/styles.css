@@ -296,7 +296,7 @@ body.dark {
     line-height: 1.3;
 }
 
-.second__description--proyectos {
+.second__description--projects {
     margin: 0;
 }
 
@@ -316,7 +316,7 @@ body.dark {
     margin: 10px 0 0;
 }
 
-.second__description--proyectos {
+.second__description--projects {
     min-height: 72px;
 }
 
@@ -433,6 +433,9 @@ body.dark {
 
 .second__link {
     margin: 0;
+}
+.second__link:hover {
+    text-decoration: underline;
 }
 
 .icon {
