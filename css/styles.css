@@ -176,6 +176,7 @@ color: var(--primary-color);
     font-weight: 400;
     font-size: 1.2rem;
     text-decoration: underline;
+    padding-top: .8em;
 }
 
 .skills{
@@ -275,11 +276,12 @@ color: var(--primary-color);
     margin: 0;
 }
 .card--experience{
-    max-height: 450px;
+    max-height: 470px;
 }
 .experience__time{
     margin: 0;
 }
+
 
 .experience__job{
     margin: 0;
