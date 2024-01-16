@@ -356,7 +356,7 @@ body.dark {
 .third__about-me i{
     color: var(--primary-color);
     opacity: .8;
-    font-size: 0.8em;
+    font-size: 1.4em;
 }
 
 .third__subtitle{
@@ -473,6 +473,15 @@ body.dark {
     color: var(--primary-color);
 }
 
+.second__description--more--projects{
+    margin: 0;
+    padding-bottom: 0.5em;
+}
+.second__more--projects{
+    padding-top: 0.1em;
+    margin: 0;
+    border-top: 2px solid var(--primary-color);
+}
 
 .second__link {
     margin: 0;
@@ -531,7 +540,5 @@ body.dark {
 .image-card:hover .overlay {
     opacity: 2;
 }
-
-
 
 
