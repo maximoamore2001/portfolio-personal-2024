@@ -153,7 +153,6 @@ body.dark {
 }
 
 .card--profile{
-    height: 1289px;
 }
 
 .card__image-container {
@@ -171,6 +170,10 @@ body.dark {
     font-size: 1.5rem;
 }
 
+.card__title--name{
+    margin: 0;
+}
+
 .card__title--projects{
     margin: 0;
     font-size: 1.5rem;
@@ -184,6 +187,7 @@ body.dark {
 .card__subtitle {
     font-size: 1rem;
     opacity: .8;
+    margin: 0;
 }
 
 .card__link {
@@ -196,7 +200,7 @@ body.dark {
 }
 
 .card__text {
-    font-size: 1rem;
+    font-size: 1.1em;
     line-height: 1.6;
     margin: 0;
 }
@@ -416,12 +420,12 @@ body.dark {
 
 .form-container .form-group input:focus {
     outline: none;
-    border-color: #e81cff;
+    border-color: var(--primary-color);
 }
 
 .form-container .form-group textarea:focus {
     outline: none;
-    border-color: #e81cff;
+    border-color: var(--primary-color);
 }
 
 .form-container .form-submit-btn {
