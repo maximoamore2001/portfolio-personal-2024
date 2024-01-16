@@ -44,6 +44,7 @@ body.dark {
     padding: 0 1.5em;
     background-color: var(--bg-card-color);
     transition: var(--trasition);
+    border-bottom: solid 2px var(--text-color);
 }
 
 .switches {
@@ -334,19 +335,22 @@ body.dark {
 .second__project {
     width: 100%;
     border-radius: var(--border-radius);
-    border: solid 2px var(--primary-color);
+    border-bottom: solid 2px var(--primary-color);
+    border-right: solid 2px var(--primary-color);
     overflow: hidden;
     margin: 10px 0 0;
 }
 
 .second__description--projects {
     min-height: 72px;
+    font-size: 1.1em;
+    line-height: 1.3;
 }
 
 
 .third__about-me li{
     list-style: none;
-    margin-top: 1em;
+    margin-top: .8em;
 }
 
 .third__about-me i{
@@ -355,7 +359,8 @@ body.dark {
 }
 
 .third__subtitle{
-    margin: .5em 0 0 0;
+    margin: .8em 0 0 0;
+    text-decoration: underline var(--primary-color);
 }
 
 .card_projects{
