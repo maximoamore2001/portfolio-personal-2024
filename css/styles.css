@@ -132,7 +132,10 @@ body.dark {
     .main {
         grid-template-columns: min-content 1fr;
     }
+   
 }
+
+
 
 .column {
     display: grid;
@@ -144,6 +147,10 @@ body.dark {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, min-content);
     }
+    .btn__social i{
+    width: 1em;
+    font-size: 2.8em;
+}
 }
 
 .card {
@@ -215,14 +222,14 @@ body.dark {
 
 .card__btns{
     text-align: center;
-    padding-top: 1em;
+    padding-top: 3em;
 }
 
 .btn__social{
     background-color: var(--bg-color);
     border-top: 2px solid var(--primary-color);
-    padding: .9em;
-    margin: 1em .1em;
+    padding: 1em;
+    margin: 0 .5em;
     text-align: center;
     color: var(--text-color);
     border-radius: var(--border-radius);
@@ -236,7 +243,7 @@ body.dark {
 
 .btn__social i{
     width: 1em;
-    font-size: 2.5em;
+    font-size: 1.9em;
 }
 
 .btn__social:hover{
