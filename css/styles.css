@@ -1,5 +1,5 @@
 :root {
-    --primary-color: hsl(65, 100%, 54%);
+    --primary-color: hsl(65,94%,68%);
     --text-color: hsl(0, 0%, 17%);
     --bg-color: hsl(0, 0%, 98%);
     --bg-card-color: hsl(0, 0%, 80%);
@@ -114,7 +114,7 @@ body.dark {
 }
 
 .colors__item--orange {
-    --primary-color: hsl(65, 100%, 54%);
+    --primary-color: hsl(65,94%,68%);
 }
 
 .title {
@@ -354,13 +354,13 @@ body.dark {
 }
 
 .third__about-me i{
-    color: var(--text-color);
+    color: var(--primary-color);
     opacity: .8;
+    font-size: 0.8em;
 }
 
 .third__subtitle{
     margin: .8em 0 0 0;
-    text-decoration: underline var(--primary-color);
 }
 
 .card_projects{
@@ -492,6 +492,45 @@ body.dark {
 }
 
 
+.image-card {
+    position: relative;
+    overflow: hidden;
+    margin-top: 1em;
+    box-shadow: 2px -2px 1px var(--text-color);
+    border: 2px solid var(--bg-color);
+}
+
+.image-card:hover{
+    box-shadow: 4px -4px 1px var(--primary-color);
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.image-card:hover img {
+    transform: scale(1.2);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-card:hover .overlay {
+    opacity: 2;
+}
 
 
 
