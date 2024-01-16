@@ -4,7 +4,7 @@ $email = filter_var($_POST["txtEmail"], FILTER_SANITIZE_EMAIL);
 $texto = filter_var($_POST["txtArea"], FILTER_SANITIZE_STRING);
 
 if (!empty($email) && !empty($texto)) {
-    $destinatario = 'maxiamorerc@gmail.com';
+    $destinatario = 'maxiamorerc88@gmail.com';
     $asunto = 'Email de prueba';
 
     $cuerpo = '
@@ -34,4 +34,6 @@ if (!empty($email) && !empty($texto)) {
         mail($destino, $asunto, $cuerpo, $headers);
 
         echo "Email enviado correctamente";
+} else {
+    echo "Error al enviar el correo" ;
 }
