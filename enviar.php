@@ -1,7 +1,7 @@
 <?php
 
-$email = filter_var($_POST["txtEmail"], FILTER_SANITIZE_EMAIL);
-$texto = filter_var($_POST["txtArea"], FILTER_SANITIZE_STRING);
+$email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
+$texto = filter_var($_POST["texto"], FILTER_SANITIZE_STRING);
 
 if (!empty($email) && !empty($texto)) {
     $destinatario = 'maxiamorerc88@gmail.com';
@@ -26,12 +26,12 @@ if (!empty($email) && !empty($texto)) {
 
         //direccion del remitente
 
-        $headers .= "From: $nombre <$email>\r\n";
+        $headers .= "From: $email\r\n";
 
         //ruta del mensaje desde origen a destino
-        $headers .= "Return-path: $destino\r\n";
+        $headers .= "Return-path: $destinatario\r\n";
 
-        mail($destino, $asunto, $cuerpo, $headers);
+        mail($destinatario,$asunto,$cuerpo,$headers);
 
         echo "Email enviado correctamente";
 } else {
