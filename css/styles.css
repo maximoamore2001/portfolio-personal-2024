@@ -102,15 +102,15 @@ body.dark {
 }
 
 .colors__item--blue {
-    --primary-color: hsl(181, 100%, 54%) ;
+    --primary-color: hsl(198, 100%, 43%);
 }
 
 .colors__item--green {
-    --primary-color: hsl(111, 100%, 54%) ;
+    --primary-color: hsl(73, 73%, 55%);
 }
 
 .colors__item--purple {
-    --primary-color: hsl(300, 100%, 50%);
+    --primary-color: hsl(30, 96%, 51%);
 }
 
 .colors__item--orange {
