@@ -105,7 +105,7 @@ body.dark {
 }
 
 .colors__item--green {
-    --primary-color: hsl(73, 73%, 55%);
+    --primary-color: hsl(311, 93%, 43%);
 }
 
 .colors__item--purple {
@@ -200,6 +200,9 @@ body.dark {
 
 .card__link {
     margin-bottom: .7em;
+}
+.card__link i {
+    width: 1em;
 }
 
 .card__link:hover {
@@ -385,7 +388,9 @@ body.dark {
     font-size: 1.1em;
     line-height: 1.3;
 }
-
+.third__about-me{
+    margin: 0;
+}
 
 .third__about-me li{
     list-style: none;
@@ -394,8 +399,14 @@ body.dark {
 
 .third__about-me i{
     color: var(--primary-color);
-    opacity: .8;
+    opacity: .7;
     font-size: 1.4em;
+    width: 1em;
+}
+
+.third__about-me h5{
+    font-size: 1em;
+    margin: 0;
 }
 
 .third__subtitle{
